@@ -5,37 +5,38 @@ html, body {
     padding: 0;
 }
 
-.intro {
-    background: #c879b2;
+.container1 {
+    display: flex;
+    height: 100vh;
     width: 100vw;
-    height: 100vw;
 }
+
+.summary, header {
+    background: #c879b2;
+    color: white;
+}
+
+header h1 {
+    width: 20vw;
+    height: 100vh;
+}
+
 header h2{
     background: #0d2c40;
-    color: #ffff;
-    width: 40%;
-    height: 100%;
-
+    width: 100vh;
+    height: 20vh;
 }
 
-header {
-    height: 50%;
-    display: flex;
+#zen-preamble{
+    background: #f6efe5;
 }
 
-.summary p{
-    color: #ffff;
-    left: 50%;
+.banner h2 {
+    width: 30vw;
+    height: 100vh;
 }
 
-.summary a{
-    color: #ffff;
-}
-
-.intro{
-    display: flex;
-}
-
-.preamble{
-    display: block;
+.summary {
+    width: 60vw;
+    height: 100vh;
 }
